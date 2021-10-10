@@ -33,7 +33,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="auth.html">Login</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -65,42 +64,27 @@
                     <th>Capacity
                         <!-- -->
                     </th>
-                    <td>32GB (2 x 16GB)</td>
+                    <td>16GB (2 x 8GB)</td>
                 </tr>
                 <tr>
                     <th>Type
-                    </th>
                     <td>288-Pin DDR4 SDRAM</td>
                 </tr>
                 <tr>
                     <th>Speed
-                    </th>
-                    <td>DDR4 3600 (PC4 28800)</td>
+                    <td>DDR4 3200 (PC4 25600)</td>
                 </tr>
                 <tr>
                     <th>CAS Latency
-                    </th>
-                    <td>18</td>
+                    <td>16</td>
                 </tr>
                 <tr>
                     <th>Timing
-                    </th>
-                    <td>18-22-22-42</td>
+                    <td>16-18-18-36</td>
                 </tr>
                 <tr>
                     <th>Voltage
-                    </th>
                     <td>1.35V</td>
-                </tr>
-                <tr>
-                    <th>ECC
-                    </th>
-                    <td>No</td>
-                </tr>
-                <tr>
-                    <th>Buffered/Registered
-                    </th>
-                    <td>Unbuffered</td>
                 </tr>
                 <tr>
                     <th>Chipset
@@ -124,29 +108,30 @@
                     <th>Features
                         <!-- -->
                     </th>
-                    <td>Designed for high-performance overclocking <br>Each VENGEANCE LPX module is built with a pure
-                        aluminum heatspreader for faster heat dissipation and cooler operation and the custom
-                        performance PCB helps manage heat and provides superior overclocking headroom.<br>Each IC is
-                        individually screened for performance potential.<br><br>Designed for great looks <br>Available
-                        in multiple colors to match your motherboard, your components, or just your
-                        style.<br><br>Performance and Compatibility <br>VENGEANCE LPX is optimized and compatibility
-                        tested for the latest Intel 100 and 200 Series motherboards and offers higher frequencies,
-                        greater bandwidth, and lower power consumption.<br><br>Low-profile heatspreader design <br>The
-                        VENGEANCE LPX module height is carefully designed to fit smaller spaces.</td>
+                    <td>Designed for high-performance overclocking<br>Each Vengeance LPX module is built with a pure
+                        aluminum heatspreader for faster heat dissipation and cooler operation; and the eight-layer PCB
+                        helps manage heat and provides superior overclocking headroom.<br>Each IC is individually
+                        screened for performance potential.<br><br>Designed for great looks<br>Available in multiple
+                        colors to match your motherboard, your components, or just your style.<br><br>Performance and
+                        Compatibility<br>Vengeance LPX is optimized and compatibility tested for the latest Intel 100
+                        Series motherboards and offers higher frequencies, greater bandwidth, and lower power
+                        consumption.<br>XMP 2.0 support for trouble-free automatic overclocking.<br><br>Low-profile
+                        heatspreader design<br>The Vengeance LPX module height is carefully designed to fit smaller
+                        spaces.</td>
                 </tr>
                 <tr>
                     <th>Recommend Use
                         <!-- -->
                     </th>
-                    <td>AMD 300 Series / AMD 400 Series / AMD X570 / Intel 300 Series / Intel X299 / Intel 400 Series /
-                        AMD 500 Series / Intel 500 Series</td>
+                    <td>AMD 300 Series / AMD 400 Series / AMD X570 / Intel 200 Series / Intel 300 Series / Intel 400
+                        Series / Intel X299 / AMD 500 Series / Intel 500 Series</td>
                 </tr>
             </tbody>
         </table>
 
     </div>
 </div>
-                <button class="btn btn-secondary" type="submit">buy Now</button>
+                <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
 
@@ -195,7 +180,7 @@
 
     </div>
 </div>
-                <button class="btn btn-secondary" type="submit">buy Now</button>
+                <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
 
@@ -344,7 +329,7 @@
 
     </div>
 </div>
-                <button class="btn btn-secondary" type="submit">buy Now</button>
+                <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
 
@@ -385,7 +370,7 @@
         </table>
     </div>
 </div>
-                <button class="btn btn-secondary" type="submit">buy Now</button>
+                <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
 
@@ -490,7 +475,7 @@
     </div>
 </div>
 
-                <button class="btn btn-secondary" type="submit">buy Now</button>
+                <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
         <article>
@@ -555,7 +540,7 @@
 
     </div>
 </div>
-                <button class="btn btn-secondary" type="submit">buy Now</button>
+                <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
 
@@ -606,7 +591,7 @@
         </table>
     </div>
 </div>
-                <button class="btn btn-secondary" type="submit">buy Now</button>
+                <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
 
@@ -698,7 +683,7 @@
         </table>
     </div>
 </div>
-                <button class="btn btn-secondary" type="submit">buy Now</button>
+                <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
 
@@ -755,11 +740,35 @@
                         </table>
                     </div>
                 </div>
-                </table> <button class="btn btn-secondary" type="submit">buy Now</button>
+                </table> <button class="btn btn-secondary" type="submit" onclick="openForm()">Buy Now</button>
             </div>
         </article>
     </main>
 
+    <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+          <h1>Check Out</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Phone Number</b></label>
+          <input type="Text" placeholder="Enter Phone" name="phone" required>
+      
+          <button type="submit" class="btn">Purchase</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+      
+      <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+      
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
