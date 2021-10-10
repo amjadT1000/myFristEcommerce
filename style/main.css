@@ -1,0 +1,140 @@
+body {
+  animation: mymove 5s infinite;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+button,img{
+padding:1px;
+border:1px solid whitesmoke;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+.reviews {
+  width: 308px;
+  height: 329px;
+}
+
+.spaceing {
+  margin-top: 10%;
+}
+
+#filter {
+  filter: grayscale(100%);
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.grid {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid>article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.grid>article:hover {
+  transition: transform .1s ease-out;
+  transform: translateY(5px);
+}
+
+.grid>article img {
+  width: 100%;
+}
+
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.text>h3 {
+  text-transform: uppercase;
+}
+
+.table-horizontal{
+
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+
+  .grid>article {
+    text-align: center;
+  }
+}
+
+@keyframes mymove {
+  from {
+    background-color: rgb(179, 97, 97);
+  }
+
+  to {
+    background-color: rgb(89, 187, 190);
+  }
+}
